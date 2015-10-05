@@ -7,5 +7,5 @@ sed -i 's/\ /\\ /g' data.dat
 while read line
 do
 	./evtxdump.pl "$directory"/"$line".evtx > "$dumploc"/"$line".xml
-	echo "$line done"
+	echo "$line .......done"
 done < data.dat
